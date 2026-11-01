@@ -1,5 +1,5 @@
 Test ID,Feature,Test Scenario,Steps,Expected Result,Actual Result,Status
-TC-01,Login,Login with valid user,"1. Open https://www.saucedemo.com 2. Enter username standard_user 3. Enter password secret_sauce 4. Click Login",User lands on the Products page,,
+TC-01,Login,Login with valid user,"1. Open https://www.saucedemo.com 2. Enter username standard_user 3. Enter password secret_sauce 4. Click Login",User lands on the Products page,Logged in and landed on the Products page,	Pass,
 TC-02,Login,Login with wrong password,"1. Open the site 2. Enter standard_user 3. Enter a wrong password 4. Click Login",Error message shown and user stays on login page,,
 TC-03,Login,Login with empty username,"1. Open the site 2. Leave username empty 3. Enter any password 4. Click Login",Error says username is required,,
 TC-04,Login,Login with empty password,"1. Open the site 2. Enter standard_user 3. Leave password empty 4. Click Login",Error says password is required,,
